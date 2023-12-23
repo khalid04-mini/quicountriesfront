@@ -1,0 +1,58 @@
+.game .quiz{
+    position: relative;
+    margin-top: 12%;
+}
+
+.game .quiz .answer button{
+    /* margin-left: 8%; */
+    margin-top: 22px;
+    width: 100%;
+    height: 85px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #F4F6FA;
+    border: 3.5px solid #313E51;
+    color: #313E51;
+    font-style: uppercase;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+
+.game .quiz .answer button .letter{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px 14px;
+    font-size: 26px;
+    background: white;
+    border-radius: 10px;
+    transition:  0.2s ease-in-out;
+}
+
+.game .quiz .answer button .ans{
+    margin-left: 12px;
+    font-size: 25px;
+}
+
+.game .quiz .answer button:hover {
+    border-color: rgb(167 41 245 /1);
+}
+
+.game .quiz .answer button:hover .letter{
+   color: rgb(167 41 245 /1);
+   background-color: rgb(246 231 255 / 1);
+}
+
+/* clicked answer */
+
+.game .quiz .answer button.clicked{
+    /* margin-left: 8%; */
+    border-color: rgb(167 41 245 /1);
+}
+
+.game .quiz .answer button.clicked .letter{
+    /* margin-left: 8%; */
+    background-color: rgb(167 41 245 /1);
+    color: white;
+}
